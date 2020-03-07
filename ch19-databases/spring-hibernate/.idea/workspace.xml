@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dc757736-5d5a-4ce9-a3b5-deb987d7a05e" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1U3vTPlMLmFvphD6IS1RxA4ZW4C" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ch01-jumpstart" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.manning.junitbook.databases" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.manning.junitbook.databases.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Work\Manning\JUnit in Action 3rd Edition\Source code\ch19-databases\spring-hibernate\src\main\resources" />
+      <recent name="C:\Work\Manning\JUnit in Action 3rd Edition\Source code\ch19-databases\spring-hibernate\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.com.manning.junitbook.databases in spring-hibernate">
+    <configuration name="CountriesHibernateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manning.junitbook.databases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.manning.junitbook.databases" />
+      <option name="MAIN_CLASS_NAME" value="com.manning.junitbook.databases.CountriesHibernateTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountriesHibernateTest.testCountryListStartsWithA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manning.junitbook.databases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.manning.junitbook.databases" />
+      <option name="MAIN_CLASS_NAME" value="com.manning.junitbook.databases.CountriesHibernateTest" />
+      <option name="METHOD_NAME" value="testCountryListStartsWithA" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.manning.junitbook.databases in spring-hibernate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manning.junitbook.databases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.manning.junitbook.databases" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.com.manning.junitbook.databases in spring-hibernate" />
+        <item itemvalue="JUnit.CountriesHibernateTest" />
+        <item itemvalue="JUnit.CountriesHibernateTest.testCountryListStartsWithA" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc757736-5d5a-4ce9-a3b5-deb987d7a05e" name="Default Changelist" comment="" />
+      <created>1574598101025</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574598101025</updated>
+    </task>
+    <servers />
+  </component>
+</project>

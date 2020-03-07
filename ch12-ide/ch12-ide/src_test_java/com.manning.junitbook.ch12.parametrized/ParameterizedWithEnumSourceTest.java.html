@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>ParameterizedWithEnumSourceTest.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">ch12-ide (Jul 31, 2019 3:20:25 PM)</a> &gt; <a href="../../index.html" class="el_group">ch12-ide</a> &gt; <a href="../index.html" class="el_bundle">src/test/java</a> &gt; <a href="index.source.html" class="el_package">com.manning.junitbook.ch12.parametrized</a> &gt; <span class="el_source">ParameterizedWithEnumSourceTest.java</span></div><h1>ParameterizedWithEnumSourceTest.java</h1><pre class="source lang-java linenums">/*
+ * ========================================================================
+ *
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the &quot;License&quot;); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ * ========================================================================
+ */
+
+package com.manning.junitbook.ch12.parametrized;
+
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.EnumSource;
+
+import com.manning.junitbook.ch12.parametrized.WordCounter;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.params.provider.EnumSource.Mode.EXCLUDE;
+
+<span class="fc" id="L32">class ParameterizedWithEnumSourceTest {</span>
+<span class="fc" id="L33">    private WordCounter wordCounter = new WordCounter();</span>
+
+    @ParameterizedTest
+    @EnumSource(Sentences.class)
+    void testWordsInSentence(Sentences sentence) {
+<span class="fc" id="L38">        assertEquals(3, wordCounter.countWords(sentence.value()));</span>
+<span class="fc" id="L39">    }</span>
+
+    @ParameterizedTest
+    @EnumSource(value=Sentences.class, names = { &quot;JUNIT_IN_ACTION&quot;, &quot;THREE_PARAMETERS&quot; })
+    void testSelectedWordsInSentence(Sentences sentence) {
+<span class="fc" id="L44">        assertEquals(3, wordCounter.countWords(sentence.value()));</span>
+<span class="fc" id="L45">    }</span>
+
+    @ParameterizedTest
+    @EnumSource(value=Sentences.class, mode = EXCLUDE, names = {  &quot;THREE_PARAMETERS&quot; })
+    void testExcludedWordsInSentence(Sentences sentence) {
+<span class="fc" id="L50">        assertEquals(3, wordCounter.countWords(sentence.value()));</span>
+<span class="fc" id="L51">    }</span>
+
+<span class="fc" id="L53">    enum Sentences {</span>
+<span class="fc" id="L54">        JUNIT_IN_ACTION(&quot;JUnit in Action&quot;),</span>
+<span class="fc" id="L55">        SOME_PARAMETERS(&quot;Check some parameters&quot;),</span>
+<span class="fc" id="L56">        THREE_PARAMETERS(&quot;Check three parameters&quot;);</span>
+
+        private final String sentence;
+
+<span class="fc" id="L60">        Sentences(String sentence) {</span>
+<span class="fc" id="L61">            this.sentence = sentence;</span>
+<span class="fc" id="L62">        }</span>
+
+        public String value() {
+<span class="fc" id="L65">            return sentence;</span>
+        }
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.3.201901230119</span>ch12-ide (Jul 31, 2019 3:20:25 PM)</div></body></html>

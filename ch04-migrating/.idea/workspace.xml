@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3566c1e5-8e42-40b0-a788-d5e7d07600b5" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ch04-migrating" />
+  </component>
+  <component name="ProjectId" id="1Vqht2WrDRwzOBYxluXguI92YRy" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ch06-quality" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.manning.junitbook.ch04.categories" />
+      <recent name="com.manning.junitbook.ch04.extensions" />
+      <recent name="com.manning.junitbook.ch04.rules" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ch04 in ch04-migrating">
+    <configuration name="JUnit4SUTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch04-migrating" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manning.junitbook.ch04.lifecycle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.manning.junitbook.ch04.lifecycle" />
+      <option name="MAIN_CLASS_NAME" value="com.manning.junitbook.ch04.lifecycle.JUnit4SUTTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JUnit5ExceptionTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch04-migrating" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manning.junitbook.ch04.rules.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.manning.junitbook.ch04.rules" />
+      <option name="MAIN_CLASS_NAME" value="com.manning.junitbook.ch04.rules.JUnit5ExceptionTester" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JUnit5TempDirTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch04-migrating" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manning.junitbook.ch04.rules.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.manning.junitbook.ch04.rules" />
+      <option name="MAIN_CLASS_NAME" value="com.manning.junitbook.ch04.rules.JUnit5TempDirTester" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ch04 in ch04-migrating" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch04-migrating" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/com/manning/junitbook/ch04" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ch04 in ch04-migrating" />
+        <item itemvalue="JUnit.JUnit5TempDirTester" />
+        <item itemvalue="JUnit.JUnit5ExceptionTester" />
+        <item itemvalue="JUnit.JUnit4SUTTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3566c1e5-8e42-40b0-a788-d5e7d07600b5" name="Default Changelist" comment="" />
+      <created>1577986743864</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577986743864</updated>
+    </task>
+    <servers />
+  </component>
+</project>

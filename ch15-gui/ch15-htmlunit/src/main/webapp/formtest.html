@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+    <script>
+function validate_form(form) {
+	if (form.in_text.value=="") {
+		alert("Please enter a value.");
+		form.in_text.focus();
+		return false;
+	}
+}
+
+
+    </script>
+    <title>Form Test</title></head>
+<body>
+<form name="validated_form" action="submit.html" onsubmit="return validate_form(this);" method="post">
+    Value:
+    <input type="text" name="in_text" id="in_text" size="30"/>
+    <input type="submit" value="Submit" id="submit" name="submit"/>
+</form>
+</body>
+</html>

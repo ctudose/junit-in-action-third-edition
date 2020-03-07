@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="47401299-53c4-4d4c-a882-5c1c024e38de" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myFlattenPackages" value="true" />
+    <option name="myAutoScrollFromSource" value="true" />
+    <option name="myElementSize" value="208" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="C:\Work\Manning\JUnit in Action 3rd Edition\Source code\ch12-ide" />
+  </component>
+  <component name="ProjectId" id="1Ojfu8sllyp9J6pPaC8jXFYswHM" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ch13-continuous" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.DisabledClassTest">
+    <configuration name="DisabledClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch12-ide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manning.junitbook.ch12.disabled.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.manning.junitbook.ch12.disabled" />
+      <option name="MAIN_CLASS_NAME" value="com.manning.junitbook.ch12.disabled.DisabledClassTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tags (repository )" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch12-ide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manning.junitbook.ch12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.manning.junitbook.ch12" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="tags" />
+      <option name="PARAMETERS" value="" />
+      <tag value="repository" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.manning.junitbook.ch12 in ch12-ide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch12-ide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manning.junitbook.ch12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.manning.junitbook.ch12" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.manning.junitbook.ch12.repeated in ch12-ide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch12-ide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manning.junitbook.ch12.repeated.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.manning.junitbook.ch12.repeated" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.manning.junitbook.ch12.tags in ch12-ide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch12-ide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manning.junitbook.ch12.tags.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.manning.junitbook.ch12.tags" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.com.manning.junitbook.ch12.tags in ch12-ide" />
+      <item itemvalue="JUnit.Tags (repository )" />
+      <item itemvalue="JUnit.com.manning.junitbook.ch12 in ch12-ide" />
+      <item itemvalue="JUnit.com.manning.junitbook.ch12.repeated in ch12-ide" />
+      <item itemvalue="JUnit.DisabledClassTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DisabledClassTest" />
+        <item itemvalue="JUnit.com.manning.junitbook.ch12 in ch12-ide" />
+        <item itemvalue="JUnit.Tags (repository )" />
+        <item itemvalue="JUnit.com.manning.junitbook.ch12.repeated in ch12-ide" />
+        <item itemvalue="JUnit.com.manning.junitbook.ch12.tags in ch12-ide" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47401299-53c4-4d4c-a882-5c1c024e38de" name="Default Changelist" comment="" />
+      <created>1564496146271</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564496146271</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ch12_ide$com_manning_junitbook_ch02_assertions_in_ch12_ide.ic" NAME="com.manning.junitbook.ch02.assertions in ch12-ide Coverage Results" MODIFIED="1564496340886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.manning.junitbook.ch02.assertions.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ch12_ide$com_manning_junitbook_ch12_in_ch12_ide.ic" NAME="com.manning.junitbook.ch12 in ch12-ide Coverage Results" MODIFIED="1577980377422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.manning.junitbook.ch12.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ch12_ide$com_manning_junitbook_ch02_in_ch12_ide.ic" NAME="com.manning.junitbook.ch02 in ch12-ide Coverage Results" MODIFIED="1564496518666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.manning.junitbook.ch02.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ch12_ide$AssertAllTest.ic" NAME="AssertAllTest Coverage Results" MODIFIED="1564497302391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.manning.junitbook.ch12.assertions.*</FILTER>
+    </SUITE>
+  </component>
+</project>

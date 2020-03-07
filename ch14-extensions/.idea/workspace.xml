@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8ef801bd-43dc-4462-8790-0acff25b287f" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1QyGHhkrN3dNs3h65b21DHEFI2z" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ch15-gui/ch15-htmlunit" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.manning.junitbook.ch14" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.manning.junitbook.ch14.extensions" />
+      <recent name="com.manning.junitbook.ch14.jdbc" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Work\Manning\ch14-extensions\src\test\resources" />
+      <recent name="C:\Work\Manning\ch14-extensions\src\main\java\com\manning\junitbook\ch14\jdbc" />
+      <recent name="C:\Work\Manning\JUnit in Action 3rd Edition\Source code\ch14-extensions\src\test\resources" />
+      <recent name="C:\Work\Manning\JUnit in Action 3rd Edition\Source code\ch14-extensions\src\test\java\com\manning\junitbook\ch14" />
+      <recent name="C:\Work\Manning\JUnit in Action 3rd Edition\Source code\ch14-extensions\src\main\java\com\manning\junitbook\ch14" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.com.manning.junitbook.ch14 in ch14-extensions">
+    <configuration name="PassengerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch14-extensions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manning.junitbook.ch14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.manning.junitbook.ch14" />
+      <option name="MAIN_CLASS_NAME" value="com.manning.junitbook.ch14.PassengerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassengerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch14-extensions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manning.junitbook.ch14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.manning.junitbook.ch14" />
+      <option name="MAIN_CLASS_NAME" value="com.manning.junitbook.ch14.PassengerTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Djunit.jupiter.extensions.autodetection.enabled=true" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.manning.junitbook.ch14 in ch14-extensions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch14-extensions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manning.junitbook.ch14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.manning.junitbook.ch14" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.PassengerTest" />
+      <item itemvalue="JUnit.PassengerTest (1)" />
+      <item itemvalue="JUnit.com.manning.junitbook.ch14 in ch14-extensions" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.com.manning.junitbook.ch14 in ch14-extensions" />
+        <item itemvalue="JUnit.PassengerTest (1)" />
+        <item itemvalue="JUnit.PassengerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ef801bd-43dc-4462-8790-0acff25b287f" name="Default Changelist" comment="" />
+      <created>1568735336926</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568735336926</updated>
+    </task>
+    <servers />
+  </component>
+</project>

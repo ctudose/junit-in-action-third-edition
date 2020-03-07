@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>Customer.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">ch12-ide (Jul 31, 2019 3:20:25 PM)</a> &gt; <a href="../../index.html" class="el_group">ch12-ide</a> &gt; <a href="../index.html" class="el_bundle">src/main/java</a> &gt; <a href="index.source.html" class="el_package">com.manning.junitbook.ch12.nested</a> &gt; <span class="el_source">Customer.java</span></div><h1>Customer.java</h1><pre class="source lang-java linenums">/*
+ * ========================================================================
+ *
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the &quot;License&quot;); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ * ========================================================================
+ */
+
+package com.manning.junitbook.ch12.nested;
+
+import java.util.Date;
+import java.util.Objects;
+
+public class Customer {
+	private Gender gender;
+	private String firstName;
+	private String lastName;
+
+	private String middleName;
+	private Date becomeCustomer;
+	
+	public static class Builder {
+		private Gender gender;
+		private String lastName;
+		private String firstName;
+		
+		private String middleName;
+		private Date becomeCustomer;
+		
+<span class="fc" id="L43">		public Builder(Gender gender, String firstName, String lastName) {</span>
+<span class="fc" id="L44">			this.gender = gender;</span>
+<span class="fc" id="L45">			this.firstName = firstName;</span>
+<span class="fc" id="L46">			this.lastName = lastName;</span>
+<span class="fc" id="L47">		}</span>
+		
+		public Builder withMiddleName(String middleName) {
+<span class="fc" id="L50">		  this.middleName = middleName;</span>
+<span class="fc" id="L51">		  return this; </span>
+		}
+
+		
+		public Builder withBecomeCustomer(Date becomeCustomer)	{
+<span class="fc" id="L56">			this.becomeCustomer = becomeCustomer;</span>
+<span class="fc" id="L57">			return this; </span>
+		}
+		
+		public Customer build() {
+<span class="fc" id="L61">			return new Customer(this);</span>
+		}
+	}
+	
+<span class="fc" id="L65">	private Customer(Builder builder) {</span>
+<span class="fc" id="L66">		this.gender = builder.gender;</span>
+<span class="fc" id="L67">		this.firstName = builder.firstName;</span>
+<span class="fc" id="L68">		this.lastName = builder.lastName;</span>
+<span class="fc" id="L69">		this.middleName = builder.middleName;</span>
+<span class="fc" id="L70">		this.becomeCustomer = builder.becomeCustomer;</span>
+<span class="fc" id="L71">	}</span>
+
+	public Gender getGender() {
+<span class="fc" id="L74">		return gender;</span>
+	}
+
+	public String getFirstName() {
+<span class="fc" id="L78">		return firstName;</span>
+	}
+
+	public String getLastName() {
+<span class="fc" id="L82">		return lastName;</span>
+	}
+
+	public String getMiddleName() {
+<span class="fc" id="L86">		return middleName;</span>
+	}
+
+	public Date getBecomeCustomer() {
+<span class="fc" id="L90">		return becomeCustomer;</span>
+	}
+
+	@Override
+	public boolean equals(Object o) {
+<span class="pc bpc" id="L95" title="1 of 2 branches missed.">		if (this == o) return true;</span>
+<span class="pc bpc" id="L96" title="2 of 4 branches missed.">		if (o == null || getClass() != o.getClass()) return false;</span>
+<span class="fc" id="L97">		Customer customer = (Customer) o;</span>
+<span class="pc bpc" id="L98" title="1 of 2 branches missed.">		return gender == customer.gender &amp;&amp;</span>
+<span class="pc bpc" id="L99" title="1 of 2 branches missed.">				Objects.equals(firstName, customer.firstName) &amp;&amp;</span>
+<span class="fc bfc" id="L100" title="All 2 branches covered.">				Objects.equals(lastName, customer.lastName) &amp;&amp;</span>
+<span class="pc bpc" id="L101" title="1 of 2 branches missed.">				Objects.equals(middleName, customer.middleName) &amp;&amp;</span>
+<span class="pc bpc" id="L102" title="1 of 2 branches missed.">				Objects.equals(becomeCustomer, customer.becomeCustomer);</span>
+	}
+
+	@Override
+	public int hashCode() {
+
+<span class="fc" id="L108">		return Objects.hash(gender, firstName, lastName, middleName, becomeCustomer);</span>
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.3.201901230119</span>ch12-ide (Jul 31, 2019 3:20:25 PM)</div></body></html>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>DynamicTestsTest.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">ch12-ide (Jul 31, 2019 3:20:25 PM)</a> &gt; <a href="../../index.html" class="el_group">ch12-ide</a> &gt; <a href="../index.html" class="el_bundle">src/test/java</a> &gt; <a href="index.source.html" class="el_package">com.manning.junitbook.ch12.dynamic</a> &gt; <span class="el_source">DynamicTestsTest.java</span></div><h1>DynamicTestsTest.java</h1><pre class="source lang-java linenums">/*
+ * ========================================================================
+ *
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the &quot;License&quot;); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ * ========================================================================
+ */
+
+package com.manning.junitbook.ch12.dynamic;
+
+import org.junit.jupiter.api.*;
+
+import com.manning.junitbook.ch12.predicate.PositiveNumberPredicate;
+
+import java.util.Iterator;
+
+import static java.util.Arrays.asList;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.DynamicTest.dynamicTest;
+
+<span class="fc" id="L35">class DynamicTestsTest {</span>
+
+<span class="fc" id="L37">    private PositiveNumberPredicate predicate = new PositiveNumberPredicate();</span>
+
+    @BeforeAll
+    static void setUpClass() {
+<span class="fc" id="L41">        System.out.println(&quot;@BeforeAll method&quot;);</span>
+<span class="fc" id="L42">    }</span>
+
+    @AfterAll
+    static void tearDownClass() {
+<span class="fc" id="L46">        System.out.println(&quot;@AfterAll method&quot;);</span>
+<span class="fc" id="L47">    }</span>
+
+    @BeforeEach
+    void setUp() {
+<span class="fc" id="L51">        System.out.println(&quot;@BeforeEach method&quot;);</span>
+<span class="fc" id="L52">    }</span>
+
+    @AfterEach
+    void tearDown() {
+<span class="fc" id="L56">        System.out.println(&quot;@AfterEach method&quot;);</span>
+<span class="fc" id="L57">    }</span>
+
+    @TestFactory
+    Iterator&lt;DynamicTest&gt; positiveNumberPredicateTestCases() {
+<span class="fc" id="L61">        return asList(</span>
+<span class="fc" id="L62">                dynamicTest(&quot;negative number&quot;, () -&gt; assertFalse(predicate.check(-1))),</span>
+<span class="fc" id="L63">                dynamicTest(&quot;zero&quot;, () -&gt; assertFalse(predicate.check(0))),</span>
+<span class="fc" id="L64">                dynamicTest(&quot;positive number&quot;, () -&gt; assertTrue(predicate.check(1)))</span>
+<span class="fc" id="L65">        ).iterator();</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.3.201901230119</span>ch12-ide (Jul 31, 2019 3:20:25 PM)</div></body></html>
