@@ -68,4 +68,5 @@ target
 *.iml
 *.ipr
 *.iws
-ch13-continuous/
+.gradle
+cch13-continuous/
