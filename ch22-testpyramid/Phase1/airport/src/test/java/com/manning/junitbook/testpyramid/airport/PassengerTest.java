@@ -41,7 +41,7 @@ public class PassengerTest {
     }
 
     @Test
-    public void testInvalidSsn() {
+    public void testCreatePassengerWithInvalidSsn() {
         assertThrows(RuntimeException.class,
                 () -> {
                     Passenger passenger = new Passenger("123-456-789", "John Smith", "US");
@@ -53,7 +53,7 @@ public class PassengerTest {
     }
 
     @Test
-    public void testInvalidNonUsIdentifier() {
+    public void testCreatePassengerWithInvalidNonUsIdentifier() {
         assertThrows(RuntimeException.class,
                 () -> {
                     Passenger passenger = new Passenger("900-456-789", "John Smith", "GB");
@@ -65,7 +65,7 @@ public class PassengerTest {
     }
 
     @Test
-    public void testInvalidCountryCode() {
+    public void testCreatePassengerWithInvalidCountryCode() {
         assertThrows(RuntimeException.class,
                 () -> {
                     Passenger passenger = new Passenger("900-45-6789", "John Smith", "GJ");

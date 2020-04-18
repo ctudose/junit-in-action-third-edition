@@ -57,7 +57,7 @@ public class JUnit4SUTTest {
 
     @Test
     @Ignore
-    public void mySecondTest() {
+    public void myThirdTest() {
         assertEquals("2 is not equal to 1", 2, 1);
     }
 }

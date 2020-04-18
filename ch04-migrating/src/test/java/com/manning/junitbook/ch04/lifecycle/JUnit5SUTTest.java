@@ -67,7 +67,7 @@ class JUnit5SUTTest {
 
     @Test
     @Disabled
-    void mySecondTest() {
+    void myThirdTest() {
         assertEquals(2, 1, "2 is not equal to 1");
     }
 }
